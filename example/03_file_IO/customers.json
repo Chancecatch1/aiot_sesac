@@ -1,0 +1,37 @@
+[
+  {
+    "name": "\ucd5c\uc6d0\uce60",
+    "c_id": "123",
+    "rating": "bronze",
+    "total_amount": 0,
+    "accounts": {}
+  },
+  {
+    "name": "\uc774\uc11c\ud601",
+    "c_id": "124",
+    "rating": "bronze",
+    "total_amount": 0,
+    "accounts": {}
+  },
+  {
+    "name": "\uac10\ubc14\uc2a4",
+    "c_id": "125",
+    "rating": "bronze",
+    "total_amount": 0,
+    "accounts": {}
+  },
+  {
+    "name": "\uc6e8\ud558\uc2a4",
+    "c_id": "126",
+    "rating": "bronze",
+    "total_amount": 0,
+    "accounts": {}
+  },
+  {
+    "name": "\ucd08\ucf54\ud558\uc784",
+    "c_id": "127",
+    "rating": "bronze",
+    "total_amount": 0,
+    "accounts": {}
+  }
+]

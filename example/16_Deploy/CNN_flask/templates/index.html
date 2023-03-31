@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="row justify-content-center">
+        <form class="col-4 p-md-5 mt-4 border rounded-3 bg-light" enctype=multipart/form-data action="{{ url_for('upload') }}" method="post">
+            <div class="mb-3">
+                <label for="upImage" class="form-label">사진&영상</label>
+                <input type=file id=upImage name=file>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    {% if image is not none %}
+    <div class="row justify-content-center">
+        <img class="col-6 m-4" id="image" src="data:image/jpeg;base64,{{ image }}" width="416" height="416" style="background-color: grey">
+        <h3 class="col-6">
+            <small class="text-muted">예측 결과 : </small>
+            {{predict}}
+        </h3>
+    </div>
+    {% endif %}
+    {% if filename is not none %}
+    <div class="row justify-content-center">
+        {{filename}}
+        <video controls="" autoplay="" name="media">
+            <source src="{{ url_for('static', filename=filename) }}" type="video/mp4">
+        </video>
+    </div>
+    {% endif %}
+
+{% endblock %}

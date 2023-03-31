@@ -1,0 +1,57 @@
+[
+  {
+    "name": "맹광국",
+    "s_id": "123",
+    "products": {
+      "커피": 10
+    },
+    "price": 0,
+    "locate": "용산"
+  },
+  {
+    "name": "새싹",
+    "s_id": "1",
+    "products": {
+      "커피": 10
+    },
+    "price": 0,
+    "locate": "용산"
+  },
+  {
+    "name": "다팔아",
+    "s_id": "2",
+    "products": {
+      "커피": 10
+    },
+    "price": 0,
+    "locate": "강남"
+  },
+  {
+    "name": "말만해",
+    "s_id": "3",
+    "products": {
+      "커피": 10,
+      "바나나": 3
+    },
+    "price": 5,
+    "locate": "구로"
+  },
+  {
+    "name": "맘껏사",
+    "s_id": "4",
+    "products": {
+      "커피": 10
+    },
+    "price": 0,
+    "locate": "관악"
+  },
+  {
+    "name": "착한가격",
+    "s_id": "5",
+    "products": {
+      "커피": 10
+    },
+    "price": 0,
+    "locate": "중구"
+  }
+]
