@@ -1,4 +1,4 @@
-### < SeSac(청년취업사관학교) AIoT 교육 >
+#### AIoT Class at SeSac
 
 #### Title
 - [AIoT 프로세스로 누구나 배우는 4차 산업시대의 SW 개발역량](https://sesac.seoul.kr/course/active/detail.do)
